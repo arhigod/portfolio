@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend-разработчик.">
+    <title>Портфолио</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="material-decorator"></div>
+    <div class="paper size-fab-to-card card-animations animating" id="main-card">
+        <div id="profile-holder">
+            <div class="fab btn-ripple fabAppear" id="ex"></div>
+            <div id="links-wrapper">
+                <div id="links-holder">
+                    <ul id="links">
+                        <li>
+                            <a target="_blank" href="https://github.com/arhigod"><img src="images/icons/github.png"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://vk.com/arhigod_id"><img src="images/icons/vk.png"></a>
+                        </li>
+                    </ul>
+                    <p id="or">или</p>
+                    <p id="email"><a href="mailto:arhigodg@gmail.com">arhigodg@gmail.com</a></p>
+                </div>
+            </div>
+            <div id="profile-ripple-bg"></div>
+        </div>
+        <div id="bio-holder">
+            <p class="desc" id="name">Арсений</p>
+            <p class="desc" id="spec">Frontend-разработчик</p>
+            <div id="go-to-works" class="btn-ripple">МОИ РАБОТЫ</div>
+        </div>
+        <div id="works">
+            <div id="works-decorator"></div>
+            <div id="works-header">
+                <div id="back-arrow"></div>
+                <span>Мои работы</span>
+                <a target="_blank" href="https://github.com/arhigod"></a>
+            </div>
+            <div id="works-holder">
+                <a href="https://arhigod.github.io/layout-workshop/index.html" target="_blank">
+                    <div class="card btn-ripple" id="layout">
+                        <div class="image"></div>
+                        <div class="about-project">
+                            <p class="project-name">WorkShop</p>
+                            <p class="project-description">Верстка по макету, фиксированная ширина 1638px</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://arhigod.github.io/game/index.html" target="_blank">
+                    <div class="card btn-ripple" id="gow">
+                        <div class="image"></div>
+                        <div class="about-project">
+                            <p class="project-name">Game of War</p>
+                            <p class="project-description">Лэндинг пэйдж и игра</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://arhigod.github.io/css-frameworks/index.html" target="_blank">
+                    <div class="card btn-ripple" id="fw">
+                        <div class="image"></div>
+                        <div class="about-project">
+                            <p class="project-name">Css frameworks</p>
+                            <p class="project-description">Респонсив верстка с использованием bootstrap</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="screen-size-warning">
+        <div>Извините, но размеры экрана малы для правильного отображения контента :(</div>
+    </div>
+</body>
+
+</html>
