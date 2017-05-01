@@ -535,6 +535,11 @@ body {
     background-size: cover;
 }
 
+#yt .image {
+    background: url(images/yt.png) no-repeat;
+    background-size: cover;
+}
+
 
 /**/
 
