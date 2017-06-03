@@ -540,6 +540,11 @@ body {
     background-size: cover;
 }
 
+#calendar .image {
+    background: url(images/calendar.png) no-repeat;
+    background-size: cover;
+}
+
 
 /**/
 
